@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&display=swap");
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 50px;
+}
+
+.name {
+  border-radius: 20px;
+  height: 100px;
+  width: 250px;
+}
+
+.container h1 {
+  margin: 0;
+  font-family: "Annapurna SIL", sans-serif; /* Applying the font */
+  padding: 5px;
+  font-size: 40px;
+}
+
+.nav {
+  border-color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  // background-color: red;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+  padding: 5px; /* Adjusted padding */
+  margin: 0 2px; /* Adjusted margin */
+  font-size: 30px;
+}
+
+.container a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container h1:hover {
+  color: purple;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5%; /* Adjusted margin for smaller screens */
+    margin-right: 5%; /* Adjusted margin for smaller screens */
+    padding: 20px; /* Increased padding for better spacing */
+  }
+
+  .container h1 {
+    font-size: 40px; /* Adjusted font size for smaller screens */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+  }
+
+  .container a {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+    margin: 10px 0; /* Adjusted margin for better spacing */
+  }
+}

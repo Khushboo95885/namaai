@@ -1,0 +1,22 @@
+/* Layout.module.css */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure that the wrapper takes up at least the full viewport height */
+}
+
+.content {
+  flex: 1; /* Grow to fill available space */
+}
+
+/* Footer styling */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+.landing {
+  color: white;
+}
